@@ -56,6 +56,8 @@ interactively upon each manual page refresh.```
 ```Static UI page lists dulpicates and overrides results with first search result at top of page. Comparably with Swagger's GET endpoint, it returns correctly
 50 results as coded in the task .cs and each value is unique. Seems to be a frontend issue with the display, compared to an API/backend problem it seems. ```
 - Review query patterns and database usage.
+```Theoretical finding thesis: too many GET requests from UI webpage can possible cause a lockup or intermittent freeze on query retrieval, may be causing
+slowdown and/or server error 500, since this would technically be a backend error with frontend symptoms such as slowdowns and incorrect data displayed.  ```
 
 ### “Duplicates / wrong order after refresh”
 - Compare API response vs UI rendering.
