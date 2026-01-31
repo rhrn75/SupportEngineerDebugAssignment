@@ -10,7 +10,7 @@
 ## Common commands
 
 **Run locally**
-```bashtest
+```bashtestt
 cd src/SupportEngineerChallenge.Api
 dotnet run
 ```
