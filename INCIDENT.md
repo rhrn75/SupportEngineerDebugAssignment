@@ -5,11 +5,11 @@
 **Severity:**  
 
 ## Impact
-- Who/what was impacted?
+- User base utilizing task list, experiencing inconsistency with page loads and near constant server 500 errors.
 - Symptoms observed by customers/internal users
 
 ## Detection
-- How did we learn about this? (customer reports, monitoring, etc.)
+- Reports came in from monitored webapp.
 
 ## Timeline (UTC)
 - HH:MM — ...
